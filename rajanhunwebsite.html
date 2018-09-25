@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    
+        <style>
+            body 
+            {
+                background-color: lightblue;
+            }
+            
+            h1 
+            {
+                color: white;
+                text-align: center;
+                font-family: Ostrich Sans Light;
+                font-size: 100px;
+            }
+            
+            p
+            {
+                font-family: Lane-Narrow;
+                font-size: 20px;
+                color: black;
+            }
+            table
+            {
+                font-family: Lane-Narrow;
+                border-collapse: collapse;
+                width: 50%;
+            }
+            
+            td, th
+            {
+                border: 1px solid #FFFFFF;
+                text-align: left;
+                padding: 8px;
+            }
+            
+             h2 
+            {
+                text-align: center;
+                font-family: Lane-Narrow;
+                font-size: 50 px;
+                color: white;
+            }
+            
+            input [type=text], select, textarea
+            {
+                width: 100%;
+                padding: 10px;
+                border: 1px solid #cccccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                margin-top: 6px;
+                margin-bottom: 16px;
+                resize: vertical;
+                font-family: Lane-Narrow;
+            }
+            
+            input [type=submit]
+            {
+                font-color: lightblue;
+                font-family: Lane-Narrow;
+                padding: 12 px 20 px;
+                border: none;
+                border-radius: 4 px;
+                cursor: pointer;
+            }
+            
+            input [type=submit]: hover
+            {
+                background-color: #afced3;
+                font-family: Lane-Narrow;
+            }
+            
+            .container
+            {
+                border: 1px solid white;
+                border-radius: 5px;
+                background-color: #9ac4d1;
+                padding: 20 px;
+                font-family: Lane-Narrow;
+                color: white;
+            }
+        </style>
+    
+    
+    <body>
+        <h1> Rachel Janhunen </h1>
+        <center><p> UNIVERSITY OF WATERLOO</p>
+        <p> Biomedical Engineering - Class of 2022 </p>
+        <pre>
+        </pre>
+        <img src = "tobermory.jpg" alt = "Art" width = "375" height = "400">
+        <p> Listed below are the courses that were completed in the 1A term. </p>
+        <table>
+            <tr>
+                <th> COURSE NAME </th>
+                <th> COURSE CODE </th>
+            </tr>
+            
+            <tr>
+                <td>Introduction to Biomedical Design </td> 
+                <td> BME 161 </td>
+            </tr>
+            
+            <tr>
+                <td> Introduction to Biomedical Engineering </td>
+                <td> BME 101 </td>
+            </tr>
+            
+            <tr>
+                <td> Digital Computation </td>
+                <td> BME 121 </td>
+            </tr>
+            
+            <tr>
+                <td> Physics 1 - Statics </td>
+                <td> BME 181 </td>
+            </tr>
+            
+            <tr>
+                <td> Computer Aided Design </td>
+                <td> BME 101L </td>
+            </tr>
+            
+            <tr>
+                <td>Matrices and Linear Systems</td>
+                <td> SYDE 113</td>
+            </tr>
+            
+            <tr>
+                <td>Fundamental Engineering Math 1</td>
+                <td> SYDE 111</td>
+            </tr>
+        </table> </center>
+        <h2> <b> CONTACT FORM </b> </H2>
+        
+        <p> racheljanhunen11@gmail.com</p>
+        <p> Waterloo, Ontario, Canada<p>
+        
+        <div class = "container">
+        <form>
+            <label for = "fname"> First Name </label></br>
+                <input type = "text" id = "fname" name = "firstname" placeholder = "Your first name"> </br>
+                
+            <label for = "lname"> Last Name </label></br>
+                <input type = "text" id = "lname" name = "lastname" placeholder = "Your last name"></br>
+            
+            <label for = "email"> Email </label></br>
+                <input type = "text" id = "email" name = "email" placeholder = "Your email"></br>
+            
+            <label for = "country"> Country </label>
+                <select id = "country" name = "country">
+                    <option value = "australia"> Australia </option>
+                    <option value = "belgium"> Belgium </option>
+                    <option value = "canada"> Canada </option>
+                    <option value = "france"> France </option>
+                    <option value = "japan"> Japan </option>
+                    <option value = "thailand"> Thailand </option>
+                    <option value = "usa"> USA </option>
+                </select>
+                
+            <label for = "subject"> Subject </label>
+                <textarea id = "subject" placeholder = "Leave a message" style = "height: 200px"> </textarea>
+                <input type = "submit" value = "Submit"> 
+        </form>
+        </div>
+    </body>
+</html>
